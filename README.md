@@ -2,7 +2,7 @@
 
 Reconnaissance automatique de texte manuscrit (HTR) appliquée au corpus e-NDP (Notre-Dame de Paris, 1326–1504).
 
-**Module** : Vision par ordinateur — Master Data/IA, HETIC 2026  
+
 **Groupe**  : Valentine Bounmy, Aby Samassa, Fares Hafiane
 
 ## Question scientifique
