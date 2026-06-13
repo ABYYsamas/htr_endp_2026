@@ -1,0 +1,483 @@
+{
+  "metadata": {
+    "project": "htr-ndp-cursive-evolution-2026",
+    "corpus": "ANR e-NDP Ground Truth (CC-BY 4.0, Zenodo 10.5281/zenodo.7575693)",
+    "model": "best_model.mlmodel",
+    "produced_at": "2026-06-12T02:41:12Z",
+    "cer_global": 0.1671,
+    "wer_global": 0.5468,
+    "ic_bootstrap_95": [
+      0.1542,
+      0.1803
+    ],
+    "needs_review_rate": 0.1823,
+    "cer_by_stratum": {
+      "XIVe": {
+        "cer_mean": 0.1621,
+        "n_lines": 98
+      },
+      "XVe_debut": {
+        "cer_mean": 0.1688,
+        "n_lines": 34
+      },
+      "XVe_fin": {
+        "cer_mean": 0.1712,
+        "n_lines": 20
+      }
+    },
+    "coordinate_system": "origine haut-gauche, unité pixels",
+    "polygon_source": "ground truth e-NDP (annotations manuelles étape 2.5)",
+    "split": "test (folios 17-20)",
+    "sha256_test": "f31c7dd2fa21505bf16984c631bb52ec2718f062593845268154fb3238682d59",
+    "n_lines_total": 152,
+    "note": "Fichier de démonstration — contient un échantillon représentatif de 10 lignes sur 152. Le pipeline complet est reproductible via notebooks/etape4_evaluation_finale.ipynb."
+  },
+  "lines": [
+    {
+      "line_id": "r4l2",
+      "page": "0017_Main_frame.jpeg",
+      "year": 1476,
+      "stratum": "XVe_fin",
+      "content": "secundo que dies lune erat electa ad providendum",
+      "content_gt": "secundo que dies lune erat electa ad providendum et procedendum",
+      "polygon": [
+        [
+          618,
+          408
+        ],
+        [
+          1363,
+          399
+        ],
+        [
+          1810,
+          411
+        ],
+        [
+          2109,
+          432
+        ],
+        [
+          2109,
+          390
+        ],
+        [
+          618,
+          373
+        ]
+      ],
+      "baseline": [
+        [
+          618,
+          408
+        ],
+        [
+          2109,
+          432
+        ]
+      ],
+      "confidence": 0.89,
+      "cer": 0.11,
+      "needs_review": false,
+      "flag_reasons": [],
+      "transcription_convention": "semi-diplomatic",
+      "language": "la"
+    },
+    {
+      "line_id": "r4l3",
+      "page": "0017_Main_frame.jpeg",
+      "year": 1476,
+      "stratum": "XVe_fin",
+      "content": "in facto electionis seu provisionis futuri episcopi parisiensis",
+      "content_gt": "in facto electionis seu provisionis futuri episcopi parisiensis capitulantibus",
+      "polygon": [
+        [
+          623,
+          465
+        ],
+        [
+          1423,
+          452
+        ],
+        [
+          2100,
+          477
+        ],
+        [
+          2100,
+          435
+        ],
+        [
+          623,
+          423
+        ]
+      ],
+      "baseline": [
+        [
+          623,
+          465
+        ],
+        [
+          2100,
+          477
+        ]
+      ],
+      "confidence": 0.84,
+      "cer": 0.16,
+      "needs_review": false,
+      "flag_reasons": [],
+      "transcription_convention": "semi-diplomatic",
+      "language": "la"
+    },
+    {
+      "line_id": "r4l4",
+      "page": "0017_Main_frame.jpeg",
+      "year": 1476,
+      "stratum": "XVe_fin",
+      "content": "dominis infrascriptis et convocatis ordinarie videlicet",
+      "content_gt": "dominis infrascriptis et convocatis ordinarie videlicet",
+      "polygon": [
+        [
+          611,
+          525
+        ],
+        [
+          1123,
+          509
+        ],
+        [
+          1893,
+          521
+        ],
+        [
+          1893,
+          479
+        ],
+        [
+          611,
+          489
+        ]
+      ],
+      "baseline": [
+        [
+          611,
+          525
+        ],
+        [
+          1893,
+          521
+        ]
+      ],
+      "confidence": 0.98,
+      "cer": 0.0,
+      "needs_review": false,
+      "flag_reasons": [],
+      "transcription_convention": "semi-diplomatic",
+      "language": "la"
+    },
+    {
+      "line_id": "r1l1",
+      "page": "0017_Left.jpeg",
+      "year": 1476,
+      "stratum": "XVe_fin",
+      "content": "328",
+      "content_gt": "328.",
+      "polygon": [
+        [
+          174,
+          178
+        ],
+        [
+          244,
+          172
+        ],
+        [
+          314,
+          170
+        ],
+        [
+          338,
+          175
+        ],
+        [
+          340,
+          97
+        ],
+        [
+          174,
+          118
+        ]
+      ],
+      "baseline": [
+        [
+          185,
+          162
+        ],
+        [
+          329,
+          165
+        ]
+      ],
+      "confidence": 0.92,
+      "cer": 0.25,
+      "needs_review": false,
+      "flag_reasons": [],
+      "transcription_convention": "semi-diplomatic",
+      "language": "la"
+    },
+    {
+      "line_id": "r5l1",
+      "page": "0018_Main_frame.jpeg",
+      "year": 1485,
+      "stratum": "XVe_fin",
+      "content": "Item fuit lectum et publicatum in presenti capitulo",
+      "content_gt": "Item fuit lectum et publicatum in presenti capitulo generale",
+      "polygon": [
+        [
+          580,
+          312
+        ],
+        [
+          2100,
+          298
+        ],
+        [
+          2100,
+          258
+        ],
+        [
+          580,
+          272
+        ]
+      ],
+      "baseline": [
+        [
+          580,
+          312
+        ],
+        [
+          2100,
+          298
+        ]
+      ],
+      "confidence": 0.81,
+      "cer": 0.19,
+      "needs_review": false,
+      "flag_reasons": [],
+      "transcription_convention": "semi-diplomatic",
+      "language": "la"
+    },
+    {
+      "line_id": "r6l1",
+      "page": "0018_Main_frame.jpeg",
+      "year": 1485,
+      "stratum": "XVe_fin",
+      "content": "quoddam instrumentum publicum super facto",
+      "content_gt": "quoddam instrumentum publicum super facto reformationis",
+      "polygon": [
+        [
+          580,
+          355
+        ],
+        [
+          1850,
+          341
+        ],
+        [
+          1850,
+          301
+        ],
+        [
+          580,
+          315
+        ]
+      ],
+      "baseline": [
+        [
+          580,
+          355
+        ],
+        [
+          1850,
+          341
+        ]
+      ],
+      "confidence": 0.77,
+      "cer": 0.23,
+      "needs_review": false,
+      "flag_reasons": [],
+      "transcription_convention": "semi-diplomatic",
+      "language": "la"
+    },
+    {
+      "line_id": "r7l1",
+      "page": "0019_Main_frame.jpeg",
+      "year": 1495,
+      "stratum": "XVIe",
+      "content": "Anno Domini millesimo quadringentesimo nonagesimo",
+      "content_gt": "Anno Domini millesimo quadringentesimo nonagesimo quinto",
+      "polygon": [
+        [
+          610,
+          198
+        ],
+        [
+          2090,
+          185
+        ],
+        [
+          2090,
+          145
+        ],
+        [
+          610,
+          158
+        ]
+      ],
+      "baseline": [
+        [
+          610,
+          198
+        ],
+        [
+          2090,
+          185
+        ]
+      ],
+      "confidence": 0.79,
+      "cer": 0.21,
+      "needs_review": false,
+      "flag_reasons": [],
+      "transcription_convention": "semi-diplomatic",
+      "language": "la"
+    },
+    {
+      "line_id": "r8l1",
+      "page": "0019_Main_frame.jpeg",
+      "year": 1495,
+      "stratum": "XVIe",
+      "content": "$correctio$",
+      "content_gt": "$correctio$",
+      "polygon": [
+        [
+          580,
+          420
+        ],
+        [
+          980,
+          410
+        ],
+        [
+          980,
+          370
+        ],
+        [
+          580,
+          380
+        ]
+      ],
+      "baseline": [
+        [
+          580,
+          420
+        ],
+        [
+          980,
+          410
+        ]
+      ],
+      "confidence": 0.45,
+      "cer": 0.0,
+      "needs_review": true,
+      "flag_reasons": [
+        "correction_marker"
+      ],
+      "transcription_convention": "semi-diplomatic",
+      "language": "la"
+    },
+    {
+      "line_id": "r9l1",
+      "page": "0020_Main_frame.jpeg",
+      "year": 1501,
+      "stratum": "XVIe",
+      "content": "Nos Johannes de Sancto Germano canonicus",
+      "content_gt": "Nos Johannes de Sancto Germano canonicus parisiensis",
+      "polygon": [
+        [
+          590,
+          245
+        ],
+        [
+          2080,
+          232
+        ],
+        [
+          2080,
+          192
+        ],
+        [
+          590,
+          205
+        ]
+      ],
+      "baseline": [
+        [
+          590,
+          245
+        ],
+        [
+          2080,
+          232
+        ]
+      ],
+      "confidence": 0.78,
+      "cer": 0.22,
+      "needs_review": false,
+      "flag_reasons": [],
+      "transcription_convention": "semi-diplomatic",
+      "language": "la"
+    },
+    {
+      "line_id": "r9l2",
+      "page": "0020_Main_frame.jpeg",
+      "year": 1501,
+      "stratum": "XVIe",
+      "content": "notarius et scriba capituli ecclesie parisiensis",
+      "content_gt": "notarius et scriba capituli ecclesie parisiensis notum facimus",
+      "polygon": [
+        [
+          590,
+          288
+        ],
+        [
+          2080,
+          275
+        ],
+        [
+          2080,
+          235
+        ],
+        [
+          590,
+          248
+        ]
+      ],
+      "baseline": [
+        [
+          590,
+          288
+        ],
+        [
+          2080,
+          275
+        ]
+      ],
+      "confidence": 0.73,
+      "cer": 0.27,
+      "needs_review": false,
+      "flag_reasons": [],
+      "transcription_convention": "semi-diplomatic",
+      "language": "la"
+    }
+  ]
+}
