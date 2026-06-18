@@ -2,7 +2,7 @@
 
 Reconnaissance automatique de texte manuscrit (HTR) appliquée au corpus e-NDP (Notre-Dame de Paris, 1326–1504).
 
-**Module** : Vision par ordinateur — Master Data/IA, HETIC 2026  
+
 **Groupe**  : Valentine Bounmy, Aby Samassa, Fares Hafiane
 
 ## Question scientifique
@@ -80,7 +80,7 @@ SHA-256 test set : `f31c7dd2fa21505bf16984c631bb52ec2718f062593845268154fb323868
 
 ## Installation
 
-git clone https://github.com/vbounmy/samassa-hafiane-bounmy-htr-manuscripts-md5
+git clone https://github.com/ABYYsamas/htr_endp_2026.git
 
 cd samassa-hafiane-bounmy-htr-manuscripts-md5
 
