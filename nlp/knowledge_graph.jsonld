@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "medieval": "http://example.org/medieval#",
+    "tei": "http://www.tei-c.org/ns/1.0/",
+    "reside_a": "medieval:residesAt",
+    "agit_lors_de": "medieval:agitLorsDe",
+    "polygon_ref": "medieval:polygonRef"
+  },
+  "@graph": [
+    {
+      "@type": "Relationship",
+      "sujet": "Johannes de Sancto Germano",
+      "relation": "reside_a",
+      "objet": "parisiensis",
+      "polygon_ref": "[[590, 245], [2080, 232], [2080, 192], [590, 205]]"
+    }
+  ]
+}
